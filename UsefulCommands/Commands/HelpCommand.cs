@@ -5,7 +5,6 @@
     
     public ExecuteEndResult Execute(ExecuteArgs args)
     {
-        Console.WriteLine("HelpList:");
         var commands = args.ProgramInstance.Commands;
         foreach (var c in commands)
         {

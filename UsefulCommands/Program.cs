@@ -9,6 +9,7 @@ public sealed class Program
             new ExitCommand(),
             new HelpCommand(),
             new LineCountCommand(),
+            new HexCommand(),
             // Add your commands here manually
         ];
     }
